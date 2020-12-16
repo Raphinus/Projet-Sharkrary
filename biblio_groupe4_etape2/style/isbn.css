@@ -1,0 +1,71 @@
+
+.livre{   /*zone ou il y as tout les livres*/
+	background-color: white;
+	width: auto;
+	height: 900px;
+	border: 5px solid #800f55;
+	background: url(../images/poisson_trop_choupi.gif);
+	background-size:50% 100%;
+}
+.livre h1{
+	color: #012C57;
+	font-size:3em;
+}
+.box{
+	width: 1300px;
+	height: 900px;
+	padding:3%;
+	background: #012C57;
+	box-sizing: border-box;
+	float: right;
+}
+.taille{
+	align-items: center;
+	width: 400px;
+    height: 500px;
+
+}
+
+.leftul{
+		padding: 500px 0 0;
+    list-style: none;
+    color: pink;
+    
+    
+    
+    float: left
+
+}
+
+.leftul2{
+	padding: 500px 0 0;
+       list-style: none;
+    color: pink;
+    
+    
+    
+    float: right
+
+}
+
+.leftul li{
+    padding-top: 10px;
+}
+.leftul2 li{
+    padding-top: 10px;
+}
+.retour{
+    width: 350px;
+    height: 170px;
+    bottom: -500px;
+    left: 850px;
+    position: absolute;
+}
+.box img:hover{
+width:900px;
+height:1100px;
+position: fixed;
+right: 850px;
+top:100px;
+
+}
